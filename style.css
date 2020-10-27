@@ -3,3 +3,14 @@ body,
 .my-wrapper {
   height: 100%;
 }
+
+.promo-caption {
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.section {
+  padding-top: 5rem !important;
+}
