@@ -1,8 +1,8 @@
-# portfolio
+# Portfolio
 
 <img src="images/portfolio-screenshot.png" alt="application-screenshot">
 
-# application url
+# Application URL
 
 https://chyppolitejr.github.io/portfolio/
 
