@@ -27,24 +27,37 @@
   <body>
     <!-- nav bar -->
     <nav>
-      <div class="nav-wrapper indigo indigo-text text-lighten-5">
-        <a href="index.html" class="brand-logo">
-          <i
-            class="large material-icons"
-            style="font-size: 35px; padding-left: 10px"
-            >home</i
-          >Claude Hyppolite Jr
-        </a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="about.html">About</a></li>
-          <li class="active"><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <!-- content area -->
-    <main class="container"></main>
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo"><span class="flow-text">Claude Hyppolite</span</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul class="right hide-on-med-and-down">
+            <li><a href="about.html">About</a></li>
+            <li class="active"><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <!-- <li><a href="mobile.html">Mobile</a></li> -->
+          </ul>
+        </div>
+      </nav>
+  
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <!-- <li><a href="mobile.html">Mobile</a></li> -->
+      </ul>
 
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="sass.html">Sass</a></li>
+      <li><a href="badges.html">Components</a></li>
+      <li><a href="collapsible.html">Javascript</a></li>
+      <li><a href="mobile.html">Mobile</a></li>
+    </ul>
+    <!-- content area -->
+    <div class="valign-wrapper my-wrapper">
+      <main class="container"></main>
+    </div>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="script.js"></script>
