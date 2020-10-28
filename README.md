@@ -1,6 +1,6 @@
 # portfolio
 
-<img src="images/application-screenshot.png" alt="application-screenshot">
+<img src="images/portfolio-screenshot.png" alt="application-screenshot">
 
 # application url
 
