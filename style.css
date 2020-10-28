@@ -1,24 +1,13 @@
-html,
-body,
-.my-wrapper {
-  height: 100%;
-}
 
-.promo-caption {
-  font-size: 1.7rem;
-  font-weight: 500;
-  margin-top: 5px;
-  margin-bottom: 0;
-}
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
 
-/* .section {
-  padding-top: 5rem !important;
-} */
+  main {
+    flex: 1 0 auto;
+  }
 
-/* .card-title {
-  padding-top: 3rem;
-} */
 
-/* .card-img {
-  height: vmax;
-} */
+

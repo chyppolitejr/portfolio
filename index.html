@@ -1,13 +1,9 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Home</title>
+    <title></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Compiled and minified CSS -->
@@ -16,66 +12,179 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- nav bar -->
-    <nav>
-      <div class="nav-wrapper">
-        <a href="index.html" class="brand-logo"><span class="flow-text">Claude Hyppolite</span</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
-          ><i class="material-icons">menu</i></a
-        >
-        <ul class="right hide-on-med-and-down">
-          <li><a href="about.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <!-- <li><a href="mobile.html">Mobile</a></li> -->
-        </ul>
+    <header>
+      <!-- nav bar -->
+      <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper teal">
+            <a href="#top-of-page" class="brand-logo center" id="top-of-page"
+              >CHJ</a
+            >
+            <a href="#" data-target="mobile-menu" class="sidenav-trigger"
+              ><i class="material-icons">menu</i></a
+            >
+            <ul class="right hide-on-med-and-down" id="contact-info">
+              <li><span>claude.hyppolite@gmail.com > 954.471.3652</span></li>
+              <!-- <li><span>954.471.3652</span></li> -->
+            </ul>
+          </div>
+        </nav>
       </div>
-    </nav>
+      <!-- mobile hamburger menu -->
+      <ul class="sidenav sidenav-close teal lighten-3" id="mobile-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <div class="divider"></div>
+        <li><a href="#" download>Resume</a></li>
+        <li><a href="mailto:claude.hyppolite@gmail.com">Email</a></li>
+        <li><a href="tel:9544713652">Phone</a></li>
+        <!-- <li><a href=""></a></li> -->
+        <!-- <li><a href="mobile.html">Mobile</a></li> -->
+      </ul>
+    </header>
+    <!-- content section -->
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m9 l10">
+            <div id="about" class="section scrollspy">
+              <h1 class="teal-text text-darken-1">About</h1>
+              <p>
+                I am currently a student in Full Stack Web Developer Bootcamp
+                with a few projects under my belt. My main background is in
+                databases (primarily SQL Server)
+              </p>
+            </div>
 
-    <ul class="sidenav" id="mobile-demo">
-      <li><a href="about.html">About</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <!-- <li><a href="mobile.html">Mobile</a></li> -->
-    </ul>
-    <!-- content -->
-    <div class="valign-wrapper my-wrapper">
-      <main class="container">
-        <div class="row">
-          <div class="col s12 center-align pb-0">
-            <img
-              class="circle"
-              src="assets/profile-pic.jpeg"
-              height="200px"
-              width="225px"
-              alt="profile-pic"
-            />
+            <div id="portfolio" class="section scrollspy">
+              <h1 class="teal-text text-darken-1">Portfolio</h1>
+              <!-- card 1 -->
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    class="activator"
+                    src="images/placeholder-1-unsplash.jpg"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4"
+                    >Project 1<i class="material-icons right"
+                      >more_vert</i
+                    ></span
+                  >
+                  <p><a href="#">Smith Family Adventure</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4"
+                    >Project 1<i class="material-icons right">close</i></span
+                  >
+                  <p>
+                    An interactive Game based on characters from the Rick and
+                    Morty Cartoon on Adult Swim. The end-user navigates from
+                    world to world and is presented with random character cards.
+                    After the user clicks on a card they are presented with bad
+                    advice
+                  </p>
+                </div>
+              </div>
+              <!-- card 2 -->
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    class="activator"
+                    src="images/pat-whelen-I3Ip2ODGTbw-unsplash.jpg"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4"
+                    >Card Title<i class="material-icons right"
+                      >more_vert</i
+                    ></span
+                  >
+                  <p><a href="#">This is a link</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4"
+                    >Card Title<i class="material-icons right">close</i></span
+                  >
+                  <p>
+                    Here is some more information about this product that is
+                    only revealed once clicked on.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div id="social" class="section scrollspy"> -->
+            <!-- <h1 class="blue-text text-darken-3">Social</h1>
+            <a href="https://www.linkedin.com/in/claude-hyppolite-jr"><i class="fab fa-linkedin fa-3x" style="padding-right: 5px;"></i></a>
+            <a href="#"><i class="fab fa-github fa-3x"></i></a> -->
+            <!-- <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+              deserunt ex? Iure exercitationem maiores molestias voluptas ullam
+              corporis neque, fugiat consequatur temporibus repellendus,
+              aspernatur saepe?
+            </p> -->
+            <!-- </div> -->
+          </div>
+          <div class="col hide-on-small-only m3 l2">
+            <ul class="section table-of-contents teal-text text-darken-3 sidenav sidenav-fixed right-aligned center teal accent-4">
+              <li><a href="#about"><h5>About</h5></a></li>
+              <div class="divider"></div>
+              <li><a href="#portfolio"><h5>Portfolio</h5></a></li>
+              <div class="divider"></div>
+              <li><a href=""><h5>Resume</h5></a></li>
+              <div class="divider"></div>
+              <li><a href="mailto:claude.hyppolite@gmail.com"><h6>claude.hyppolite@gmail.com</h6></a></li>
+              <div class="divider"></div>
+              <li><a href="tel:9544713652"><h5>Phone</h5></a></li>
+            </ul>
           </div>
         </div>
-        <div class="row">
-          <div class="col s12 center-align">
-            <h1 class="indigo-text flow-text">
-              Hi, My Name is Claude and I Build Stuff....
-            </h1>
-            <div class="divider"></div>
-            <h6 class="indigo-text text-darken-2 flow-text">
-              I'm just starting out at as full stack web developer but I invite
-              you to check out my work
-            </h6>
-          </div>
+      </div>
+    </main>
+    <footer class="page-footer teal darken-2 center">
+      <div class="container">
+        <!-- <div class="row center"> -->
+        <!-- <div class="col l6 s12"> -->
+        <a href="https://www.linkedin.com/in/claude-hyppolite-jr"
+          ><i class="fab fa-linkedin fa-3x" style="padding-right: 5px"></i
+        ></a>
+        <a href="#"><i class="fab fa-github fa-3x"></i></a>
+        <!-- <h5 class="white-text">Footer Content</h5>
+              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p> -->
+        <!-- </div> -->
+        <!-- <div class="col l4 s12"> -->
+        <!-- <h5 class="white-text">Links</h5> -->
+        <!-- <ul> -->
+        <!-- <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li> -->
+        <!-- <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li> -->
+        <!-- </ul> -->
+        <!-- </div> -->
+        <!-- </div> -->
+      </div>
+      <div class="footer-copyright teal darken-2">
+        <div class="container center">
+          © 2020 Claude Hyppolite Jr
+          <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
         </div>
-      </main>
-    </div>
+      </div>
+    </footer>
+
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script
