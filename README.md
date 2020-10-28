@@ -6,6 +6,12 @@
 
 https://chyppolitejr.github.io/portfolio/
 
+# Description
+
+This is a simple website meant to serve as a showcase to previously developed projects
+
+# License
+
 MIT License
 
 Copyright (c) 2020 chyppolitejr
